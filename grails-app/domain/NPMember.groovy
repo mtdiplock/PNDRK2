@@ -9,7 +9,7 @@ class NPMember {
     static constraints = {
 		firstname()
 		lastname()
-		role(inList: ["Board", "Member", "Volunteer"])
+		role(inList: ["Board", "Member", "Volunteer", "Guest"])
 		emailid(email: true)
 		joined()
 	}
